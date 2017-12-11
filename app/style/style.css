@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+.body{
+    display: block
+}
+.banner{
+    display: block;
+    background-image: url("../assets/ma-banner.jpeg");
+    background-position-x: 0;
+    background-position-y: 0;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.banner .nav-list{
+   
+    float: right
+}
+.banner .h1{
+    
+    display:inline-block;
+ }
+.banner .nav-list ul li{
+    display:inline-block;
+    
+}
+.banner .nav-list ul li a{
+    text-decoration: none;
+    
+}
