@@ -7,12 +7,22 @@
 }
 .banner{
     display: block;
-    background-image: url("../assets/ma-banner.jpeg");
+    background-image: url("../assets/img/slide1.jpg");
     background-position-x: 0;
     background-position-y: 0;
     width: 100%;
     background-size: cover;
     position: relative;
+}
+.banner .logo{
+    background-color: red;
+    margin-left: 150px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    display: block;
+    padding: 32px;
+    font-family: sans-serif;
 }
 .banner .nav-list{
    
