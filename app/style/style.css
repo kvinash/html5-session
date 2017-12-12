@@ -1,6 +1,7 @@
 *{
     padding: 0;
-    margin: 0;   
+    margin: 0;  
+    font-family: sans-serif; 
 }
 .body{
     display: block
@@ -13,6 +14,7 @@
     width: 100%;
     background-size: cover;
     position: relative;
+    height: 609px;
 }
 .banner .logo{
     background-color: red;
@@ -20,23 +22,48 @@
     color: white;
     height: 30px;
     width: 100px;
-    display: block;
+    display: inline-block;
     padding: 32px;
     font-family: sans-serif;
 }
 .banner .nav-list{
    
-    float: right
+    float: right;
+    padding: 40px;
+    margin-right: 20%;
 }
 .banner .h1{
     
     display:inline-block;
+    padding:40px;
  }
 .banner .nav-list ul li{
     display:inline-block;
+    margin-left: 40px;
+    color: black
     
 }
 .banner .nav-list ul li a{
     text-decoration: none;
+    color: black;
+    font-weight:600
+    
+}
+.banner .banner-content { 
+    text-align: left;
+    padding: 10% 0 0 50%;
+    width : 400px;
+}
+h1.main-line {
+    font-size: xx-large;
+}
+h2.sub-line {
+    font-size: x-large;
+    font-weight: 200;
+    font-variant: small-caps;
+}
+h4.sub-content{
+    font-weight:100;
+    color: grey
     
 }
